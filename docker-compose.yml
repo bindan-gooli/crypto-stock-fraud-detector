@@ -1,11 +1,21 @@
+version: '3.8'
+
 services:
-  crypto-guard:
+  dashboard:
     build: .
     ports:
-      - "8501:8501"
-    env_file:
-      - .env
+      - "8502:8502"
     volumes:
-      - ./logs:/app/logs
-      - ./models:/app/models
-    restart: unless-stopped
+      - .:/app
+    environment:
+      - PYTHONPATH=/app
+
+  scalper:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONPATH=/app
+    entrypoint: ["python3", "src/ultra_scalper.py"]
+    depends_on:
+      - dashboard
