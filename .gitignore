@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# IDEs
+.vscode/
+.idea/
+
+# Results & Logs
+*_results/
+live_trading_results/
+scalper_results/
+ultra_scalp_results/
+trading_sim_results/
+logs/
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db

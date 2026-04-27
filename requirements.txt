@@ -1,0 +1,22 @@
+# Core Data Science
+pandas
+numpy
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+
+# API & Web
+fastapi
+uvicorn
+streamlit
+
+# Utilities
+python-dotenv
+requests
+joblib
+plotly
+torch
