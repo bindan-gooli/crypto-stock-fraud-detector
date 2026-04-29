@@ -1,8 +1,8 @@
-# 🛡️ Crypto Guard: Hybrid Fraud Detector & Ultra-Scalper
+#  Crypto Guard: Hybrid Fraud Detector & Ultra-Scalper
 
 A high-impact, real-time intelligence system designed to identify market manipulation and execute high-precision algorithmic trades. This project combines **Anomaly Detection** with **Micro-Scalping** strategies to provide a secure and profitable trading environment.
 
-## 🚀 Key Features
+##  Key Features
 
 ### 1. Hybrid Fraud Detection
 - **Self-Supervised Learning**: Uses Isolation Forest and XGBoost to identify fraudulent spikes and wash trading in real-time without needing pre-labeled data.
@@ -18,7 +18,7 @@ A high-impact, real-time intelligence system designed to identify market manipul
 - **Live Candlestick Charts**: High-resolution charts with Bollinger Bands and RSI overlays.
 - **Execution Logs**: Instant feedback on every Buy, Sell, and Hold decision.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Core**: Python 3.13+
 - **ML Frameworks**: Scikit-learn, XGBoost, PyTorch (LSTM Autoencoders)
@@ -26,9 +26,9 @@ A high-impact, real-time intelligence system designed to identify market manipul
 - **Frontend**: Streamlit, Plotly
 - **Infrastructure**: Docker, GitHub Actions
 
-## 🚦 Getting Started
+##  Getting Started
 
-### 📦 Installation
+###  Installation
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/vinodsakh/crypto-stock-fraud-detector.git
@@ -40,17 +40,14 @@ A high-impact, real-time intelligence system designed to identify market manipul
    bash setup_project.sh
    ```
 
-### 🤖 Execution
+###  Execution
 Using the included **Makefile**:
 - **Start Scalper**: `make scalp`
 - **Start Dashboard**: `make dashboard`
 - **Check Targets**: `make targets`
 
-## 📂 Project Structure
+##  Project Structure
 - `src/ultra_scalper.py`: The high-frequency trading engine.
 - `src/bot_dashboard.py`: The Streamlit-based monitoring frontend.
 - `src/model.py`: Hybrid ML models for anomaly and fraud detection.
 - `src/live_ingestion.py`: Real-time exchange data fetcher.
-
----
-*Developed with ❤️ by Antigravity AI & the Crypto Guard Team*
