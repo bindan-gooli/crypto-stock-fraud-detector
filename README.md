@@ -51,3 +51,8 @@ Using the included **Makefile**:
 - `src/bot_dashboard.py`: The Streamlit-based monitoring frontend.
 - `src/model.py`: Hybrid ML models for anomaly and fraud detection.
 - `src/live_ingestion.py`: Real-time exchange data fetcher.
+
+
+
+
+**Created by**: [bindan-gooli](https://github.com/bindan-gooli)
